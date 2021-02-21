@@ -25,6 +25,6 @@ int main()
     c = x / 100 % 10;
     d = x / 10 % 10;
     e = x % 10;
-    cout << a + d + e - 1 << " " << c + b + 1;
+    cout << a + c + e << " " << b + d;
     return 0;
 }
